@@ -3,7 +3,7 @@
 describe('Testes para o contatos', () => {
     
     beforeEach(()=>{
-        cy.visit('https://agenda-contatos-react.vercel.app/')
+        cy.visit('https://agenda-contatos-cypress.vercel.app/')
     })
     // Teste para verificar se a aplicação foi montada corretamente
     it('devera testar o montagem da App', () => {
